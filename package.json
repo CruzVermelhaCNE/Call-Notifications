@@ -1,11 +1,11 @@
 {
   "name": "call_notifications",
   "description": "Notifies about Missed Calls and Calls to Return",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . app --platform win32 --arch x64 --out dist/ --overwrite",
+    "build": "electron-packager . notificacoes_chamadas --platform win32 --arch x64 --out dist/ --overwrite",
     "setup": "node generate_installer.js"
   },
   "author": "Miguel Santos",
