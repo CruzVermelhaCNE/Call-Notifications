@@ -1,0 +1,20 @@
+{
+  "name": "call_notifications",
+  "description": "Notifies about Missed Calls and Calls to Return",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . app --platform win32 --arch x64 --out dist/ --overwrite",
+    "setup": "node generate_installer.js"
+  },
+  "author": "Miguel Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.8",
+    "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "node-notifier": "^5.4.3"
+  }
+}
