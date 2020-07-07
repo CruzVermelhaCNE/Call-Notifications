@@ -11,7 +11,7 @@
   "author": "Miguel Santos",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^6.0.8",
+    "electron": "^7.2.4",
     "electron-winstaller": "^4.0.0"
   },
   "dependencies": {
